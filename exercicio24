@@ -1,0 +1,10 @@
+# 24) Pedir senha até que seja digitada a correta
+senha_correta = "1234"
+
+while True:
+    senha = input("Digite a senha: ")
+    if senha == senha_correta:
+        print("Você digitou a senha correta!")
+        break
+    else:
+        print("Senha incorreta, tente novamente!")
