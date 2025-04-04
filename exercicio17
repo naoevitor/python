@@ -1,0 +1,13 @@
+# 17) Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+numero1 = int(input("Informe o primeiro número: "))
+numero2 = int(input("Informe o segundo número: "))
+numero3 = int(input("Informe o terceiro número: "))
+
+if (numero1 > numero2) and (numero1 > numero3):
+    print("o primeiro é maior")
+    
+elif numero2 > numero1 and numero2 > numero3:
+    print("o segundo é maior")
+else:         
+    print("o terceiro é maior")
